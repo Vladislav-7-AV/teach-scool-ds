@@ -1,0 +1,29 @@
+{
+    "git.autoRepositoryDetection": "subFolders",
+    "breadcrumbs.enabled": true,
+
+    "python.languageServer": "Default",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "openFilesOnly",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": true,  //аннотация типов 
+    "python.analysis.inlayHints.functionReturnTypes": true,  //аннотация типов
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.enablePytestSupport": true,
+    "python.analysis.indexing": true,
+	
+// Настройка конкретной библиотеки в данном случае django
+//    "python.analysis.packageIndexDepths": [
+//        {
+//            "name": "django",
+//            "depth": 3,
+//            "includeAllSymbols": true
+//        }
+//    ],
+      
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}
