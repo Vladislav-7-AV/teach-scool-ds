@@ -1,0 +1,12 @@
+#version: '3.8'
+
+services:
+  db:
+    container_name: pg16_3
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=db_pg  
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_USER=admin
+    image: postgres:16.3-alpine
