@@ -2,7 +2,7 @@
     "git.autoRepositoryDetection": "subFolders",
     "breadcrumbs.enabled": true,
 
-    "python.languageServer": "Default",
+    "python.languageServer": "Pylance",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.diagnosticMode": "openFilesOnly",
     "python.analysis.autoSearchPaths": true,
