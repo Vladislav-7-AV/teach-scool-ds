@@ -1,19 +1,24 @@
 {
     "git.autoRepositoryDetection": "subFolders",
     "breadcrumbs.enabled": true,
-    "python.languageServer": "Jedi",
-    "python.analysis.typeCheckingMode": "off",
-    "python.analysis.diagnosticMode": "openFilesOnly",
-    "python.analysis.autoSearchPaths": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.completeFunctionParens": true,
-    "python.analysis.inlayHints.variableTypes": true,  //аннотация типов 
-    "python.analysis.inlayHints.functionReturnTypes": true,  //аннотация типов
-    "python.analysis.importFormat": "absolute",
-    "python.analysis.enablePytestSupport": true,
-    "python.analysis.indexing": true,
-	
-// Настройка конкретной библиотеки в данном случае django
+
+    "python.languageServer": "Pylance",
+        // Pylance settings:
+        "python.analysis.typeCheckingMode": "off",
+        "python.analysis.diagnosticMode": "openFilesOnly",
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.autoImportCompletions": true,
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.inlayHints.variableTypes": true,  //аннотация типов 
+        "python.analysis.inlayHints.functionReturnTypes": true,  //аннотация типов
+        "python.analysis.importFormat": "absolute",
+        "python.analysis.enablePytestSupport": true,
+        "python.analysis.indexing": true,
+        // Pylance settings END
+    "workbench.colorCustomizations": {
+        "gitDecoration.ignoredResourceForeground": "#526881",
+    }, 
+    // Настройка конкретной библиотеки в данном случае django
 //    "python.analysis.packageIndexDepths": [
 //        {
 //            "name": "django",
@@ -21,8 +26,4 @@
 //            "includeAllSymbols": true
 //        }
 //    ],
-      
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
 }
