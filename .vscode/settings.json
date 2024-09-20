@@ -2,18 +2,18 @@
     "git.autoRepositoryDetection": "subFolders",
     "breadcrumbs.enabled": true,
 
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Jedi",
         // Pylance settings:
-        "python.analysis.typeCheckingMode": "off",
-        "python.analysis.diagnosticMode": "openFilesOnly",
-        "python.analysis.autoSearchPaths": true,
-        "python.analysis.autoImportCompletions": true,
-        "python.analysis.completeFunctionParens": true,
-        "python.analysis.inlayHints.variableTypes": true,  //аннотация типов 
-        "python.analysis.inlayHints.functionReturnTypes": true,  //аннотация типов
-        "python.analysis.importFormat": "absolute",
-        "python.analysis.enablePytestSupport": true,
-        "python.analysis.indexing": true,
+        // "python.analysis.typeCheckingMode": "off",
+        // "python.analysis.diagnosticMode": "openFilesOnly",
+        // "python.analysis.autoSearchPaths": true,
+        // "python.analysis.autoImportCompletions": true,
+        // "python.analysis.completeFunctionParens": true,
+        // "python.analysis.inlayHints.variableTypes": true,  //аннотация типов 
+        // "python.analysis.inlayHints.functionReturnTypes": true,  //аннотация типов
+        // "python.analysis.importFormat": "absolute",
+        // "python.analysis.enablePytestSupport": true,
+        // "python.analysis.indexing": true,
         // Pylance settings END
     "workbench.colorCustomizations": {
         "gitDecoration.ignoredResourceForeground": "#526881",
