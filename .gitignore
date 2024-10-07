@@ -95,5 +95,5 @@ GitHub.sublime-settings
 
 #Temp files
 temp/
-temp*.*
+*temp*
 *.tmp
